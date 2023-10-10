@@ -3,14 +3,21 @@ import Layout from "./component/layout/Layout";
 
 import "./app.scss"
 import Events from "./component/events/Events";
+import Home from "./component/home/Home";
+import Advance from "./component/advance/Advance";
+import Contact from "./component/contact/Contact";
+import Sponsorer from "./component/sponsorer/Sponsorer";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Layout>
           <Routes>
-            <Route path="/" />
+            <Route path="/" element={<Home/>} />
             <Route path="/events" element={<Events/>} />
+            <Route path="/advance" element={<Advance/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/sponsorer" element={<Sponsorer/>} />
           </Routes>
       </Layout>
     </BrowserRouter>

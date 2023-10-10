@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
                         <main className="p-4">
                             <figure><Link to="/"><img src={Logo} alt="Logo" /></Link></figure>
                             <section className="col-lg-9 col-12">
-                                {children}
+                                {children} 
                             </section>
                         </main>
                     </article>

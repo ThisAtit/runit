@@ -37,7 +37,7 @@ const Events = () => {
                     <h3>Alle events</h3>
                     <article className="row">
                         {/* _________________FOREST TO THE BAY_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={forestToTheBay} alt="FOREST to THE BAY Photo" />
                                 <figcaption className="px-2">
@@ -54,7 +54,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Egå Engsø Løbet_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={egaa} alt="Egå Engsø Løbet" />
                                 <figcaption className="px-2">
@@ -71,7 +71,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Ultraløbet Fyr til Fyr_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={ultralobet} alt="Ultraløbet Fyr til Fyr" />
                                 <figcaption className="px-2">
@@ -88,7 +88,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Skovløbet Skanderborg_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={skov} alt="Skovløbet Skanderborg" />
                                 <figcaption className="px-2">
@@ -105,7 +105,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Smid tøjet løbet_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={smid} alt="Smid tøjet løbet" />
                                 <figcaption className="px-2">
@@ -122,7 +122,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Nike Marathontest 4_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={nike} alt="Nike Marathontest 4" />
                                 <figcaption className="px-2">
@@ -139,7 +139,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________VUC Vesterskovsløbet_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={vuc} alt="VUC Vesterskovsløbet" />
                                 <figcaption className="px-2">
@@ -156,7 +156,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Eventyrløbet_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={eventyr} alt="Eventyrløbet" />
                                 <figcaption className="px-2">
@@ -173,7 +173,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Firkløver 50/50_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={firk} alt="Firkløver 50/50" />
                                 <figcaption className="px-2">
@@ -190,7 +190,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________BESTSELLER Aarhus City_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={bestseller} alt="BESTSELLER Aarhus City" />
                                 <figcaption className="px-2">
@@ -207,7 +207,7 @@ const Events = () => {
                             </div>
                         </figure>
                         {/* _________________Aalborg Halvmarathon_________________ */}
-                        <figure className="col-lg-4 col-md-6 col-12">
+                        <figure className="col-lg-4 col-md-6">
                             <div className="eventcontent">
                                 <img src={aalborg} alt="Aalborg Halvmarathon" />
                                 <figcaption className="px-2">

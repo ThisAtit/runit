@@ -12,9 +12,9 @@ const Nav = () => {
                 <div className="collapse navbar-collapse" id="runit-nav">
                     <div id="link" className="navbar-nav me-auto">
                         <Link className="nav-link" to="/events">EVENTS |</Link>
-                        <Link className="nav-link" to="/">SPONSORE |</Link>
+                        <Link className="nav-link" to="/sponsorer">SPONSORE |</Link>
                         <Link className="nav-link" to="/">OM RUNIT |</Link>
-                        <Link className="nav-link" to="/">KONTAKT OS</Link>
+                        <Link className="nav-link" to="/contact">KONTAKT OS</Link>
                     </div>
                 </div>
                 <form className="d-flex" role="search">
@@ -25,7 +25,7 @@ const Nav = () => {
                         <input className="form-control" type="search" />
                     </section>
                     <section className="me-5 py-1">
-                        <Link className="nav-link" to="/"><BsFillPlayFill/> Advanceret søg</Link>
+                        <Link className="nav-link" to="/advance"><BsFillPlayFill/> Advanceret søg</Link>
                     </section>
                 </form>
             </div>
