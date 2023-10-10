@@ -1,0 +1,34 @@
+// #d04444
+// #302c2c
+
+#nav {
+    color: white;
+    a {
+        color: white;
+    }
+
+    padding: 0;
+    font-weight: bold;
+}
+
+#navBar {
+    background-color: rgb(208,68,68); 
+    
+}
+    
+
+#searchBtn {
+    background-color: #302c2c;
+
+    #search{
+        color: #d04444;
+        font-weight: bold;
+    }
+}
+
+nav {
+    input.form-control {
+        background: rgb(208,68,68);
+        border-radius: 0;
+    }
+}

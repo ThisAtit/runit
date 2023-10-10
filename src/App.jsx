@@ -1,7 +1,17 @@
-function App() {
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./component/layout/Layout";
+
+import "./app.scss"
+
+const App = () => {
   return (
-    <div className="App">
-    </div>
+    <BrowserRouter>
+      <Layout>
+          <Routes>
+            <Route path="/" />
+          </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

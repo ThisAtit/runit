@@ -1,0 +1,38 @@
+.bg_black, #news {
+    background-color: #302c2c;
+    color: white;
+}
+
+#header1 {
+    color: white;
+    background-color: #d04444;
+}
+
+#btn {
+    color: white;
+    background-color: #d04444;
+    border-radius: 0;
+    padding: 0 33%;
+}
+
+#Sidebox {
+    input {
+        background-color: #302c2c; 
+        border-radius: 0;
+        color: white;
+    }
+
+    ::placeholder {
+        color: #dbdbdb;
+    }
+
+    div button {
+        color: white;
+        border-radius: 0;
+    }
+}
+
+#SideSponser {
+    color: rgb(65, 65, 65);
+    background-color: #ffdc73;
+}
