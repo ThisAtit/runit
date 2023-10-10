@@ -11,18 +11,18 @@ const Layout = ({ children }) => {
     return (
         <div id="layout" className="container-fluid">
             <div className="row">
-                <section className="col-9 p-0">
+                <section className="col-lg-9 p-0">
                     <Nav />
-                    <main className="p-4">
-                        <figure>
-                            <Link to="/">
-                                <img src={Logo} alt="Logo" />
-                            </Link>
-                        </figure>
-                        {children}
-                    </main>
+                    <article className="row">
+                        <main className="p-4">
+                            <figure><Link to="/"><img src={Logo} alt="Logo" /></Link></figure>
+                            <section className="col-lg-9 col-12">
+                                {children}
+                            </section>
+                        </main>
+                    </article>
                 </section>
-                <section className="col-3">
+                <section className="col-lg-3">
                     <Sidebox />
                 </section>
                 <footer className="p-0">

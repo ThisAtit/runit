@@ -1,5 +1,6 @@
 import "./nav.scss";
 import { Link } from "react-router-dom";
+import {BsFillPlayFill} from "react-icons/bs";
 
 const Nav = () => {
     return (
@@ -10,7 +11,7 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="runit-nav">
                     <div id="link" className="navbar-nav me-auto">
-                        <Link className="nav-link" to="/">EVENTS |</Link>
+                        <Link className="nav-link" to="/events">EVENTS |</Link>
                         <Link className="nav-link" to="/">SPONSORE |</Link>
                         <Link className="nav-link" to="/">OM RUNIT |</Link>
                         <Link className="nav-link" to="/">KONTAKT OS</Link>
@@ -23,10 +24,9 @@ const Nav = () => {
                     <section className="me-3">
                         <input className="form-control" type="search" />
                     </section>
-                    <section className="me-5">
-                        <p>Advanceret søg</p>
+                    <section className="me-5 py-1">
+                        <Link className="nav-link" to="/"><BsFillPlayFill/> Advanceret søg</Link>
                     </section>
-
                 </form>
             </div>
         </nav>
