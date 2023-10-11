@@ -1,6 +1,7 @@
 import "./sidebox.scss";
 import newsletter from "../../img/systemoglogo/newsletter.png";
 import nike from "../../img/sponsorer/Nike.png";
+import { Link } from "react-router-dom";
 
 const Sidebox = () => {
     return (
@@ -24,9 +25,11 @@ const Sidebox = () => {
                 </section>
                 <h3 className="mt-5">Pris: 250kr</h3>
                 <section className="text-center mb-3">
-                    <section id="btn" className="btn">
-                        <h3>LÆS MERE</h3>
-                    </section>
+                    <Link to="/valgteevent">
+                        <button id="btn" className="btn mb-3 col-12">
+                            <h4>LÆS MERE</h4>
+                        </button>
+                    </Link>
                 </section>
             </article>
 
