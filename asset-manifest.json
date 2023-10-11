@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/runit/static/css/main.9ec53bb1.css",
-    "main.js": "/runit/static/js/main.84c8daec.js",
+    "main.css": "/runit/static/css/main.ebd751f6.css",
+    "main.js": "/runit/static/js/main.69576366.js",
     "static/media/FOREST to THE BAY.jpg": "/runit/static/media/FOREST to THE BAY.b981f8680ac0166b914c.jpg",
     "static/media/Smid tøjet løbet.jpg": "/runit/static/media/Smid tøjet løbet.79b954d97046241bc26e.jpg",
     "static/media/Aalborg Halvmarathon.jpg": "/runit/static/media/Aalborg Halvmarathon.f8e209f9d5d2dc96719f.jpg",
@@ -34,11 +34,11 @@
     "static/media/Vikan.jpg": "/runit/static/media/Vikan.7f2fded6797daf916e0a.jpg",
     "static/media/hummel-logo.jpg": "/runit/static/media/hummel-logo.5883ed5b8d0a5569cac1.jpg",
     "index.html": "/runit/index.html",
-    "main.9ec53bb1.css.map": "/runit/static/css/main.9ec53bb1.css.map",
-    "main.84c8daec.js.map": "/runit/static/js/main.84c8daec.js.map"
+    "main.ebd751f6.css.map": "/runit/static/css/main.ebd751f6.css.map",
+    "main.69576366.js.map": "/runit/static/js/main.69576366.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec53bb1.css",
-    "static/js/main.84c8daec.js"
+    "static/css/main.ebd751f6.css",
+    "static/js/main.69576366.js"
   ]
 }
