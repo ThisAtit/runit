@@ -11,6 +11,7 @@ import firk from "../../img/events/Firkløver 50 50.jpg";
 import bestseller from "../../img/events/BESTSELLER Aarhus City Marathon.jpg";
 
 import "./events.scss";
+import { Link } from "react-router-dom";
 
 const Events = () => {
     return (
@@ -46,9 +47,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >KOM med til det mest fantastiske løb i GateWay Blokhus i Påsken! Du kommer til at løbe i det smukkeste og mest afvekslende løbeterræn...</p>
                                     <h6>Pris: 250kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -63,9 +66,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >Løb rundt om den smukke Egå Engsø påskemandag 28. marts 2016. Motionsløb for hygge- og hurtigløbere mulighed for PR!...</p>
                                     <h6>Pris: 100kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -80,9 +85,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >Danmarks smukkeste ultraløb på langs af Bornholm går fra Dueodde Fyr i syd til målet ved Hammer Fyr på øens nordende...</p>
                                     <h6>Pris: 350kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -97,9 +104,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >Igen i år indbyder Skanderborg Løbeklub til en smuk og varieret løbetur på 7,5 km i Vestermølleskoven...</p>
                                     <h6>Pris: 80kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -114,9 +123,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >Nu kan du løbe og komme af med dit aflagte tøj ved at donere det til en god sag. Samtidig får du...</p>
                                     <h6>Pris: 250kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -131,9 +142,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >Nike Marathontest 4 er det sidste af de fire testløb frem mod Telenor Copenhagen Marathon...</p>
                                     <h6>Pris: 180kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -148,9 +161,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >VUC Vesterskovsløbet er et løb for alle. Ruterne ligger i skøn natur og by- og havnemiljø...</p>
                                     <h6>Pris: 112kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -165,9 +180,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >I år afholder vi Eventyrløbet for 39. gang, og tilmeldingen til årets løb er nu åben Husk at du med et startnummer...</p>
                                     <h6>Pris: 115kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -182,9 +199,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >Trail i Kongernes Nordsjælland Ultraløb & Trail - Fra brostens pavéer fra renaissancen til fede singletrack...</p>
                                     <h6>Pris: 500 kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -199,9 +218,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >Mærk magien når Aarhus for en enkelt dag bliver forvandlet til et...</p>
                                     <h6>Pris: 850 kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>
@@ -216,9 +237,11 @@ const Events = () => {
                                     <p className="d-none d-lg-block" >DGI Nordjylland og løbeklubberne AMOK, Aalborg Atletik & Motion og Aalborg Øst Road Runners...</p>
                                     <h6>Pris: 450kr</h6>
                                     <section className="text-center">
-                                        <section id="btn" className="btn mb-3">
-                                            <h6>LÆS MERE</h6>
-                                        </section>
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
                                     </section>
                                 </figcaption>
                             </div>

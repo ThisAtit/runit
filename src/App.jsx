@@ -7,6 +7,7 @@ import Home from "./component/home/Home";
 import Advance from "./component/advance/Advance";
 import Contact from "./component/contact/Contact";
 import Sponsorer from "./component/sponsorer/Sponsorer";
+import ValgteEvent from "./component/valgteEvent/ValgteEvent";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             <Route path="/advance" element={<Advance/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/sponsorer" element={<Sponsorer/>} />
+            <Route path="/valgteEvent" element={<ValgteEvent/>} />
           </Routes>
       </Layout>
     </BrowserRouter>
