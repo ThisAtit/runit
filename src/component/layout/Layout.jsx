@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
                     <Nav />
                     <article className="row">
                         <main className="p-4">
-                            <figure><Link to="/"><img src={Logo} alt="Logo" /></Link></figure>
+                            <figure><Link to="/"><img className="img-fluid" src={Logo} alt="Logo" /></Link></figure>
                             <section className="col-lg-9 col-12">
                                 {children} 
                             </section>

@@ -246,6 +246,25 @@ const Events = () => {
                                 </figcaption>
                             </div>
                         </figure>
+                        {/* _________________Smid tøjet løbet_________________ */}
+                        <figure className="col-lg-4 col-md-6">
+                            <div className="eventcontent">
+                                <img src={smid} alt="Smid tøjet løbet" />
+                                <figcaption className="px-2">
+                                    <h5 className="my-1">Smid tøjet løbet</h5>
+                                    <p className="date mb-3"><i>16-11-2019  Kl10:00</i></p>
+                                    <p className="d-none d-lg-block" >Nu kan du løbe og komme af med dit aflagte tøj ved at donere det til en god sag. Samtidig får du...</p>
+                                    <h6>Pris: 250kr</h6>
+                                    <section className="text-center">
+                                        <Link to="/valgteevent">
+                                            <button id="btn" className="btn mb-3">
+                                                <h6>LÆS MERE</h6>
+                                            </button>
+                                        </Link>
+                                    </section>
+                                </figcaption>
+                            </div>
+                        </figure>
                         {/* __________________________________ */}
                     </article>
                 </section>

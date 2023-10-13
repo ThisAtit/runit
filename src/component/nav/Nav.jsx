@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <nav id="nav" className="navbar navbar-expand-lg bg-body-tertiary mb-3">
             <div id="navBar" className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="runit-nav" aria-controls="runit-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#runit-nav" aria-controls="runit-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="runit-nav">
